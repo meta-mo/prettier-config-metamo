@@ -2,7 +2,7 @@
   "name": "prettier-config-metamo",
   "version": "0.0.1",
   "description": "Prettier shareable config file for metamo",
-  "main": "index.js",
+  "main": "index.json",
   "scripts": {
     "test": "npm run lint"
   },
@@ -17,4 +17,10 @@
     "url": "https://github.com/meta-mo/playground/issues"
   },
   "homepage": "https://github.com/meta-mo/playground",
+  "peerDependencies": {
+    "prettier": ">=1.17"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.4"
+  }
 }
